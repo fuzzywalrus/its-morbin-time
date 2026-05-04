@@ -8,7 +8,7 @@ A native implementation of the Hotline protocol with a full-featured AppKit admi
 
 ## What is this?
 
-Lemoniscate is a Hotline server written from the ground up in C and Objective-C. It was originally inspired by [Mobius](https://github.com/jhalter/mobius), a modern Hotline server written in Go by Jeff Halter, but has significantly diverged into its own project with features that have no upstream counterpart: HOPE challenge-response encryption, TLS support, end-to-end file content gating, a native AppKit admin GUI with disclosure sections and help popovers, and self-signed certificate generation.
+Lemoniscate is a Hotline server written from the ground up in C and Objective-C. It was originally inspired by [Mobius](https://github.com/jhalter/mobius), a modern Hotline server written in Go by Jeff Halter, but has significantly diverged into its own project with features that have no upstream counterpart: HOPE challenge-response encryption, TLS support, end-to-end file content gating, anti-bot protection, a native AppKit admin GUI with disclosure sections and help popovers, and self-signed certificate generation.
 
 This repo holds both codebases on `main`:
 
